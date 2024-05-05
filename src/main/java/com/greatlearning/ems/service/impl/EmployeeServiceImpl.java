@@ -20,5 +20,10 @@ public class EmployeeServiceImpl implements EmployeeService {
 		// TODO Auto-generated method stub
 		return employeeRepository.findAll();
 	}
+	
+	@Override
+	public void save(Employee employee) {
+		employeeRepository.save(employee);
+	}
 
 }

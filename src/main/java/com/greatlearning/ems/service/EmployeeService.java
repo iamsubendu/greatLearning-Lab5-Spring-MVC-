@@ -10,4 +10,6 @@ import com.greatlearning.ems.entity.Employee;
 public interface EmployeeService {
 
 	List<Employee> list();
+	
+	public void save(Employee employee);
 }
